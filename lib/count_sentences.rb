@@ -18,8 +18,12 @@ class String
     count = 0
     
     string_array = self.split(/[.!?]/)
-    string_array.each do 
+    string_array.each do |i|
+      if i == ""
+        count == count
+      else 
       count+=1
+    end 
     end 
     return count
   end
