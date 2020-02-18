@@ -15,6 +15,11 @@ class String
   end
 
   def count_sentences
-   
+    count = 0
+    
+    string_array = string.split(/[.!?]/)
+    string_array.each do 
+      count+=1
+    end 
   end
 end
