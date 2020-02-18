@@ -21,5 +21,6 @@ class String
     string_array.each do 
       count+=1
     end 
+    return count
   end
 end
