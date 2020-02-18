@@ -23,7 +23,7 @@ class String
         count == count
       else 
       count+=1
-    end 
+      end 
     end 
     return count
   end
